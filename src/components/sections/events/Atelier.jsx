@@ -1,11 +1,19 @@
 export default function Atelier() {
   return (
-    <div className="bg-red-100 rounded-2xl">
-      <div className="bg-yellow-400 font-bold flex flex-col justify-center text-white font-bold text-center rounded-xl w-16 h-16">
-        <span className=""></span>
+    <div className="bg-white rounded-2xl shadow p-4 flex items-center justify-between mb-4 w-90 h-20 mb-4">
+      <div className="flex items-center gap-4">
+        <div className="bg-yellow-400 text-white text-center rounded-xl w-16 h-16 flex flex-col justify-center">
+          <div className="text-2xl  text-bold">4</div>
+          <div className="text-xs  text-bold">mai</div>
+        </div>
+        <div>
+          <h2 className="text-lg text-bold text-gray-800">
+            Atelier de peinture
+          </h2>
+          <p className="text-sm text-bold text-gray-500">4 MAI 2024</p>
+        </div>
       </div>
-      <h1 className="flex gap-40 flex-col">Tournoi de peinture</h1>
-      <h1 className="flex gap-40 flex-col">4 MAI 2025</h1>
+      
     </div>
   );
 }
