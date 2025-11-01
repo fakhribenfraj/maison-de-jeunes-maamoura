@@ -1,4 +1,4 @@
-export default function Programming({
+export default function Base_Component({
   title,
   title_color,
   teacher,
