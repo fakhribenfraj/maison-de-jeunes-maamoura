@@ -6,7 +6,7 @@ export default function Base_Component({
   botten_color,
 }) {
   return (
-    <div className={"rounded-lg w-45 h-40 mt-4 mx-3 shadow " + color}>
+    <div className={"rounded-lg w-45 h-40 mt-4 mx-3 " + color}>
       <h1 className={"text-xl flex justify-center " + title_color}>{title}</h1>
       <p className="ml-3 mt-1">{teacher}</p>
       <div
