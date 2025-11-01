@@ -4,7 +4,7 @@ import Maison_de_Jeune from "./Maison_de_Jeunes";
 const Header = () => {
   return (
     <div className="flex justify-center gap-4 mt-1.5">
-      <Maison_de_Jeune />
+      <Maison_de_Jeune flex="flex justify-center gap-1"/>
 
       <h1 className="text-indigo-900 mt-5">Programs</h1>
       <h1 className="text-indigo-900 mt-5">Events</h1>
