@@ -3,7 +3,7 @@ import Base_Component from "./Base_Component";
 
 const ProgramsSection = () => {
   return (
-    <section>
+    <section className="bg-[#FFF8E9] py-16">
       <h1 className="text-4xl text-blue-900 ml-20">Programs</h1>
       <div className="flex justify-center">
         <Base_Component

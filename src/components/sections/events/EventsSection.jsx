@@ -6,7 +6,7 @@ import Images from "./Images";
 
 const EventsSection = () => {
   return (
-    <section>
+    <section className="bg-[#FFF8E9] py-16">
       <h1>Evenements à venir</h1>
       <section className="flex justify-center space-x-4">
         <div>
