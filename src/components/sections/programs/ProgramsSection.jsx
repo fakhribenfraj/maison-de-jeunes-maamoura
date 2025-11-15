@@ -4,8 +4,8 @@ import Base_Component from "./Base_Component";
 const ProgramsSection = () => {
   return (
     <section className="bg-[#FFF8E9] py-16">
-      <h1 className="text-4xl text-blue-900 ml-20">Programs</h1>
-      <div className="flex justify-center">
+      <h1 className="flex flex-col items-center md:flex-row md:text-4xl text-3xl text-blue-900 md:ml-20">Programs</h1>
+      <div className="flex flex-col items-center md:flex-row md:justify-center">
         <Base_Component
           title="Programming"
           title_color="text-blue-700"
