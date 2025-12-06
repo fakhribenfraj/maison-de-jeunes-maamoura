@@ -15,7 +15,7 @@ export default function Base_Component({
           botten_color
         }
       >
-        learn more
+        Learn more
       </div>
     </div>
   );

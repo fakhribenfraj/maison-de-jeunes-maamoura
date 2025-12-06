@@ -3,7 +3,7 @@ import Maison_de_Jeune from "./Maison_de_Jeunes";
 
 const Header = () => {
   return (
-    <div className="hidden md:flex md:justify-center md:gap-4 md:mt-1.5 md:bg-[#FFF8E9] md:py-16">
+    <div className="hidden md:flex md:justify-center md:gap-4 md:mt-1.5 bg-gray-200 md:py-16">
       <Maison_de_Jeune flex="md:flex md:justify-center md:gap-1" />
 
       <h1 className="hidden md:block md:text-indigo-900 md:mt-5">Programs</h1>
