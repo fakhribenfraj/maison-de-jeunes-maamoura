@@ -5,7 +5,7 @@ const ProgramsSection = () => {
   return (
     <section className="bg-[#FFF8E9] py-16">
       <h1 className="flex flex-col items-center md:flex-row md:text-4xl text-3xl text-blue-900 md:ml-20">Programs</h1>
-      <div className="flex flex-col items-center md:flex-row md:justify-center justify-between gap-8 mt-10 md:gap-6">
+      <div className="flex flex-col items-center md:flex-row md:justify-between gap-8 mt-10 md:gap-6 mx-50">
         <Base_Component
           title="Programming"
           title_color="text-blue-700"
